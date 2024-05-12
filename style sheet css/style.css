@@ -67,6 +67,14 @@ body * {
 ----------------------------*/
 header {
     height: 100vh;
+
+    /*   prefixer CSS   */
+    background-image: -webkit-gradient(linear,left top, left bottom,color-stop(100%, rgba(0, 0, 0, 0.692)),to(#000)) ,url(../imgs/bg.jpg);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.692) 
+    100%,#000) ,url(../imgs/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.692) 
+    100%,#000) ,url(../imgs/bg.jpg);
+
     background: linear-gradient(rgba(0, 0, 0, 0.692) 100%,#000) ,url(../imgs/bg.jpg) fixed center/cover;
 }
 header * {
